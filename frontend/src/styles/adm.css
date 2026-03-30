@@ -1,0 +1,68 @@
+.adm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    min-height: calc(100vh - 160px);
+}
+
+.adm-box {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    border-top: 5px solid #22c55e;
+}
+
+.adm-box h2 {
+    color: #1e293b;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+
+.adm-box input {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    color: #1e293b;
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.adm-box input:focus {
+    border-color: #22c55e;
+    outline: none;
+}
+
+
+.btn-adm {
+    width: 100%;
+    padding: 12px;
+    background: #22c55e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.btn-adm:hover {
+    background: #16a34a;
+}
+
+.btn-logout {
+    background: #ef4444;
+    margin-top: 20px;
+}
+
+.btn-logout:hover {
+    background: #dc2626;
+}
